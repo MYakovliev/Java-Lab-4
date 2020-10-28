@@ -40,6 +40,7 @@ public class Algorithms {
         return (int)(Math.random() * ((max - min) + 1)) + min;
     }
 
+    // This function return String name of day of the week.
     public static String getWeekDay(int value) {
         String[] days = new String[] { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
 
